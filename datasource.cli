@@ -11,7 +11,7 @@ batch
 #password:sa
 #java:/comp/jeeconfigexampleDS
 
-# add ikatato H2 inmemory datasource
+# add jeeconfigexample H2 inmemory datasource
 data-source add --name=jeeconfigexampleDS --driver-name=h2 --jndi-name=java:/comp/jeeconfigexampleDS --connection-url="jdbc:h2:mem:jeeconfigexample;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE" --user-name=sa --password=sa --use-ccm=false --max-pool-size=25 --blocking-timeout-wait-millis=5000 --enabled=true
 
 run-batch
