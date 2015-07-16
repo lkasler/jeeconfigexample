@@ -2,7 +2,7 @@
 
 Sample JEE 7 application to demonstrate custom deltaspike properties file configuration and adjusted arquillian tests using embedded wildfly.
 
-The application skeleton was generated witgh JBOSS Forge tool.
+The application skeleton was generated with JBOSS Forge tool.
 
 Add datasource.cli via jboss.cli command like in the root porojects directory assuming that wildfly 8.2 is already started
 **${wildfly_home}\bin\jboss.cli.bat  --file=datasource.cli**
