@@ -1,5 +1,7 @@
 # jeeconfigexample 
-**JEE configuration example using deltaspike custom properties file resolver using Wildfly embedded for arquillian tests**
+
+#JEE configuration example using deltaspike custom properties file resolver using Wildfly embedded for arquillian tests
+
 
 Sample JEE 7 application to demonstrate custom deltaspike properties file configuration and adjusted arquillian tests using embedded Wildfly.
 
