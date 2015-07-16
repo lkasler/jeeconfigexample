@@ -13,7 +13,8 @@ To run arquillian tests execute:
 The default config file is **jeeconfigexample-config-dev.properties**  which can be overriden via sytem or environment variables. 
 
 To customize the properties file name depending on the actual environment set the environment  **jeeconfigexampleStage** (example: export jeeconfigexampleStage=test) or system property variable to the desired value (example: -DjeeconfigexampleStage=test), supposing that **jeeconfigexample-config-{cutomenv}.properties** (example: jeeconfigexample-config-test.properties) is on the classpath.
-In the name selection of actual properties file the environment variable has higher precedence order than system property variable following the deltaspike default precedence order.
+
+In the name selection of actual properties file the environment variable has higher precedence order than system property variable following the deltaspike default precedence order fallbacking if both is absent to **dev** (jeeconfigexample-config-dev.properties).
 
 All deltaspike's key order precedence is untouched so precedence order are: environment variables, system properties, properties file.
 
